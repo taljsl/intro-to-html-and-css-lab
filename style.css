@@ -1,0 +1,156 @@
+body {
+  background-color: rgb(239, 234, 234);
+}
+
+#button1 {
+  background-color: black;
+  color: white;
+}
+#button2 {
+  background-color: white;
+  border:2px solid black
+  
+}
+button {
+  width: 200px;
+  height: 60px;
+  top: 67px;
+  left: 60px;
+  margin: 30px;
+}
+.boxContainer {
+  display: flex;
+  gap: 20px;
+}
+.box1 {
+  width: 270px;
+  height: 436px;
+  top: 191px;
+  left: 60px;
+  gap: 0px;
+  opacity: 0px;
+}
+.topHalf {
+  /* flexbox cmds taught by Ian */
+  background-color: black;
+  width: 270px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whiteBox {
+    background-color: white;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    
+  }
+.bottomHalf {
+  width: 270px;
+  height: 166px;
+  top: 270px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+#specialF {
+  width: 270px;
+  height: 166px;
+  top: 270px;
+  font-size: 20px;
+  padding-left: 24px;
+}
+#smore {
+  width: 67px;
+  height: 20px;
+  top: 392px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 14px;
+  line-height: 19.03px;
+  padding-left: 24px;
+}
+
+
+.box2 {
+  width: 270px;
+  height: 420px;
+  top: 191px;
+  left: 378px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: white;
+  border: 1px solid #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+.blackBub {
+    width: 54px;
+    height: 54px;
+    background-color: black;
+    border-radius: 100%;
+    margin: 10px;
+    padding: 30 px;
+
+
+
+
+}
+.box2 > h3 {
+  size: 20px;
+  margin: 0px;
+
+}
+
+.box2 > ul {
+  list-style-type: none;
+  color: gray;
+  padding:0;
+  ;
+  }
+  .box2 > ul > li{
+    margin: 20px 0;
+    font 14px;
+  }
+#button3{
+    background-color: white;
+    border-radius: 8px;
+    width: 160px;
+    height: 40px;
+    padding: 10px;
+}
+/* Box 3 styling below */
+.box3 {
+  width: 370px;
+  height: 502px;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.b3top{
+    background-color: black;
+    width: 370px;
+    height: 370px;
+
+}
+.b3bot{
+    width: 370px;
+    height: 132px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.p1{
+    font-size: 24px;
+}
+.p2{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
